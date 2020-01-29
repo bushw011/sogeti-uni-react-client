@@ -32,10 +32,10 @@ class App extends React.Component {
               return (
                 <div class="card" style={{ width: '18rem' }} key={index}>
                   <img src={employee.imageUrl} style={{ padding: '10px' }} class="card-img-top"></img>
-                  <div class="card-body">
-                    <h3 class="card-body">{employee.name}</h3>
-                    <p class="card-text">{employee.location}</p>
-                    <a href="#" class="btn btn-primary">Details</a>
+                  <div className="card-body">
+                    <h3 className="card-body">{employee.name}</h3>
+                    <p className="card-text">{employee.location}</p>
+                    <p className="card-text">{employee.cellNumber}</p>
                   </div>
                 </div>
               )
